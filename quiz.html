@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+CA+Guides&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="container">
+  <div class="head">
+    <div class="row">
+      <div class="col-6">
+        <h2 id="head-title">MCQ</h2>
+      </div>
+      <div class="col-6 timer">
+        <h2 id="timer-display">Time: 60 seconds</h2>
+      </div>
+    </div>
+  </div>
+  <div class="question">
+    <div class="row">
+      <div id="question-area" class="col-12"></div>
+    </div>
+  </div>
+  <div class="next" style="text-align: right;">
+    <button id="next-button" disabled>Next</button>
+  </div>
+  <div id="results-area">
+    <div class="circle-wrap">
+      <div class="circle">
+        <div class="mask full">
+          <div class="fill"></div>
+        </div>
+        <div class="mask half">
+          <div class="fill"></div>
+        </div>
+        <div class="inside-circle">
+          <span id="percentage"></span>
+        </div>
+      </div>
+    </div>
+    <p id="score-text"></p>
+  </div>
+</div>
+  <script type="module" src="assets/js/script.js"></script>
+</body>
+</html>
