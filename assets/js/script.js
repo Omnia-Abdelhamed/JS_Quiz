@@ -1,4 +1,3 @@
-// script.js
 import { Quiz } from './Quiz.js';
 import { questions } from './data.js';
 onload=() => {
