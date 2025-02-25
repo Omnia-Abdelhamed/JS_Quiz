@@ -16,7 +16,7 @@ export class Question {
   
       if (this.image) {
         const questionImage = document.createElement('img');
-        questionImage.src = `../assets/img/${this.image}`;
+        questionImage.src = `assets/img/${this.image}`;
         questionImage.alt = "Question Image";
         questionArea.appendChild(questionImage);
       }
